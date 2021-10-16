@@ -108,6 +108,14 @@ class ViewController: UIViewController {
     @IBAction func calculateCustom(_ sender: Any) {
         customSetting.isHidden = false
         mainView.isOpaque = true
+        customSetting.alpha = 0
+        customSetting.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+        UIView.animate(
+            withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.55, initialSpringVelocity: 3,
+            options: .curveEaseOut, animations: { [self] in
+                customSetting.transform = .identity
+                self.customSetting.alpha = 1
+        }, completion: nil)
     }
     
     @IBAction func exitSettings(_ sender: Any) {
