@@ -42,6 +42,8 @@ class ViewController: UIViewController {
         customSetting.isHidden = true
         customSetting.layer.cornerRadius = 20
         customSetting.layer.borderWidth = 1
+        customSetting.layer.borderColor = UIColor.lightGray.cgColor
+        customSetting.center = mainView.center
         
         view.addSubview(mainView)
         view.addSubview(customSetting)
