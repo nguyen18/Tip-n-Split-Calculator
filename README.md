@@ -14,14 +14,18 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] UI animations
+* [x] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Create a custom tip percentage (converts whole number to decimal to calculate tip)
+- [x] Split the tip and bill amongst a number of people; also shows how much tip and total per person when splitted
+- [x] Always split it amongst at least 1 person
+- [x] Reset button to clear the screen
+- [x] UI details (rounded edges, etc.)
 
 ## Video Walkthrough
 
