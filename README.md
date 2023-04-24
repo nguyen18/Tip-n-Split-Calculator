@@ -3,8 +3,6 @@ A swift app that calculates the bill including tip and can split it amongst a gr
 
 Submitted by: **Taylor Nguyen**
 
-Time spent: **5** hours spent in total
-
 ## User Stories
 
 The following **required** functionality is complete:
